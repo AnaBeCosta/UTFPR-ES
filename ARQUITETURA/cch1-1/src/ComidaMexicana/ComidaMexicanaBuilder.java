@@ -4,10 +4,7 @@ public class ComidaMexicanaBuilder {
     private ComidaMexicana comidaMexicana;
 
     public ComidaMexicanaBuilder(){
-    }
-
-    public static ComidaMexicanaBuilder builder(){
-        return  new ComidaMexicanaBuilder();
+        this.comidaMexicana = new ComidaMexicana();
     }
 
     public ComidaMexicanaBuilder nome(String nome){

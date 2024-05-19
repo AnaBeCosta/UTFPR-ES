@@ -10,10 +10,6 @@ public class ComidaMexicana {
     protected  ComidaMexicana(){
     }
 
-    public static ComidaMexicana builder(){
-        return  new ComidaMexicana();
-    }
-
     public void setNome (String nome){
         this.nome = nome;
     }

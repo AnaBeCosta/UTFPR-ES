@@ -5,10 +5,10 @@ public class App {
         var comidaMexicana = new ComidaMexicanaBuilder()
             .nome("Taco")
             .sabor("Frango")
+            .tamanho(2)
+            .valor(5)
             .promocao(true)
             .build();
-
-        ComidaMexicanaBuilder.retirarPromocao(comidaMexicana);
 
         System.out.println(comidaMexicana);
     }
